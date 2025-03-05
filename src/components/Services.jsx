@@ -59,7 +59,6 @@ const Services = () => {
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
-                  alt="robot"
                 />
               </div>
 
@@ -112,7 +111,6 @@ const Services = () => {
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
                 />
 
                 <VideoChatMessage />
