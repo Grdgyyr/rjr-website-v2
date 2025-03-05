@@ -14,9 +14,6 @@ import {
   framer,
   homeSmile,
   instagram,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
   plusSquare,
@@ -34,62 +31,40 @@ import {
   telegram,
   twitter,
   yourlogo,
+  medical,
+  hardware,
+  electrical,
+  computer,
+  linen,
+  office
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Profile",
+    url: "#profile",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Products",
+    url: "#products",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Product Catalog",
+    url: "#catalog",
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Contact Us",
+    url: "#footer",
     onlyMobile: true,
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
 
 export const roadmap = [
   {
@@ -128,64 +103,67 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
+  "RJR Marketing is founded in 1999 with its main purpose of Linen Manufacturing providing Linen supplies, Office Supplies, Electronics and IT Equipment for Government Hospitals and Private sectors. Over the years, the business evolved to include trading and providing customer's needs from originally Linens and Equipments to anything within the business scope for client's supplies.";
+export const collabText2 = "Currently, RJR Marketing is a one stop shop for every imaginable item needed by clients with extensive suppliers throughout the country bringing quality and affordable items for client's needs.";
+export const collabText3 ="RJR Marketing is PhilGEPS Platinum registered and is able to cater government transactions.";
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "History",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "What we provide",
+    text: collabText2,
   },
   {
     id: "2",
     title: "Top-notch Security",
+    text: collabText3
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "Office",
+    icon: office,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Linen",
+    icon: linen,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Computer",
+    icon: computer,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Hardware",
+    icon: hardware,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Electrical",
+    icon: electrical,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Medical",
+    icon: medical,
     width: 34,
     height: 34,
   },
