@@ -50,11 +50,6 @@ export const navigation = [
     url: "#catalog",
   },
   {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
     id: "5",
     title: "Contact Us",
     url: "#footer",
