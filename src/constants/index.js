@@ -14,9 +14,6 @@ import {
   framer,
   homeSmile,
   instagram,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
   plusSquare,
@@ -40,17 +37,17 @@ export const navigation = [
   {
     id: "0",
     title: "Profile",
-    url: "#features",
+    url: "#profile",
   },
   {
     id: "1",
     title: "Products",
-    url: "#pricing",
+    url: "#products",
   },
   {
     id: "2",
-    title: "Contact Us",
-    url: "#how-to-use",
+    title: "Product Catalog",
+    url: "#catalog",
   },
   {
     id: "3",
@@ -59,14 +56,13 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Contact Us",
+    url: "#footer",
     onlyMobile: true,
   },
 ];
 
 
-export const notificationImages = [notification4, notification3, notification2];
 
 export const brainwaveServices = [
   "Photo generating",

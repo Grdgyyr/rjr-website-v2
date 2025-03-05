@@ -10,8 +10,8 @@ const Pricing = () => {
           <img
             src="/assets/rjrlogo.png"
             className="relative z-1"
-            width={500}
-            height={500}
+            width={400}
+            height={400}
           />
           <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
             <img
@@ -25,15 +25,15 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          title="General Merchandising | Trading"
+          tag="&quot;Quality Products and Service Delivered at Reasonable Price&quot;"
         />
 
 
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="https://www.facebook.com/RJRMerchandising"
           >
             See the full details
           </a>
