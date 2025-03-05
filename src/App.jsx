@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -17,7 +16,6 @@ const App = () => {
         <Benefits />
         <Roadmap />
         
-        <Services />
         <Footer />
       </div>
 
