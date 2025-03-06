@@ -14,9 +14,6 @@ import {
   framer,
   homeSmile,
   instagram,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
   plusSquare,
@@ -39,57 +36,29 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Profile",
+    url: "#profile",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Products",
+    url: "#products",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Product Catalog",
+    url: "#catalog",
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Contact Us",
+    url: "#footer",
     onlyMobile: true,
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
 
 export const roadmap = [
   {
