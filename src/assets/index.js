@@ -35,7 +35,7 @@ import slack from "./collaboration/slack.png";
 
 
 import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
+import stars from "./pricing/Untitled design.png";
 
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
@@ -51,7 +51,7 @@ import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
+import benefitCard5 from "./benefits/card-5.png";
 import benefitCard6 from "./benefits/card-6.svg";
 import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
