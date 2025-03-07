@@ -1,3 +1,8 @@
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import FacebookIcon from "@mui/icons-material/Facebook";
+
 import {
   benefitIcon1,
   benefitIcon2,
@@ -7,13 +12,10 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
-  facebook,
   figma,
   file02,
   framer,
   homeSmile,
-  instagram,
   notion,
   photoshop,
   plusSquare,
@@ -28,8 +30,6 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
-  twitter,
   yourlogo,
 } from "../assets";
 
@@ -266,32 +266,26 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
+    title: "Cypress Avenue, Granplains Subdivision, Quintin Salas, Jaro",
+    icon: LocationOnIcon,
     url: "#",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
+    title: "(033) 330-8014 | (63) 918-3099-150",
+    icon: PhoneIcon,
     url: "#",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "rjrmarketingiloilo@gmail.com | info@rjrmarketing.com",
+    icon: EmailIcon,
+    url: "mailto:rjrmarketingiloilo@gmail.com",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "www.facebook.com/RJRMerchandising",
+    icon: FacebookIcon,
+    url: "https://www.facebook.com/RJRMerchandising",
   },
 ];

@@ -1,5 +1,5 @@
 import Section from "./Section";
-import {stars } from "../assets";
+import { stars } from "../assets";
 import Heading from "./Heading";
 
 const Pricing = () => {
@@ -26,14 +26,15 @@ const Pricing = () => {
 
         <Heading
           title="General Merchandising | Trading"
-          tag="&quot;Quality Products and Service Delivered at Reasonable Price&quot;"
+          tag='"Quality Products and Service Delivered at Reasonable Price"'
         />
-
 
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="https://www.facebook.com/RJRMerchandising"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             See the full details
           </a>
