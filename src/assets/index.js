@@ -24,27 +24,26 @@ import background from "./background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import medical from "./collaboration/medical.png";
+import hardware from "./collaboration/hardware.png";
+import electrical from "./collaboration/electrical.png";
+import computer from "./collaboration/computer.png";
+import linen from "./collaboration/linen.png";
+import office from "./collaboration/office.png";
 
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
-import undone from "./roadmap/undone.svg";
+
+import roadmap5 from "./roadmap/electronics.png";
+import roadmap6 from "./roadmap/accessories.png";
+import roadmap7 from "./roadmap/parts.png";
+import roadmap8 from "./roadmap/officesupplies.png";
+import roadmap9 from "./roadmap/medicalsupplies.png";
+import roadmap10 from "./roadmap/equipments.png";
 
 
 import benefitCard1 from "./benefits/card-1.svg";
@@ -58,6 +57,13 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+
+import discordBlack from "./socials/discord.svg";
+import facebook from "./socials/facebook.svg";
+import instagram from "./socials/instagram.svg";
+import telegram from "./socials/telegram.svg";
+import twitter from "./socials/twitter.svg";
+import { roadmap } from "../constants";
 
 export {
   brainwave,
@@ -84,24 +90,22 @@ export {
   background,
   curve1,
   curve2,
-  discord,
-  figma,
   framer,
-  notion,
-  photoshop,
-  protopie,
   raindrop,
-  slack,
+  medical,
+  hardware,
+  electrical,
+  computer,
+  linen,
+  office,
   lines,
   stars,
-  coins,
-  done,
-  hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  undone,
+  roadmap5,
+  roadmap6,
+  roadmap7,
+  roadmap8,
+  roadmap9,
+  roadmap10,
   benefitCard1,
   benefitCard2,
   benefitCard3,
