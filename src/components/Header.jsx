@@ -35,8 +35,11 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#">
-          <img src="/assets/rjrlogo.png" width={80} height={40} alt="Brainwave" />
+        <a
+          className="block w-[12rem] xl:mr-8 text-2xl font-bold text-white font-code"
+          href="#"
+        >
+          RJR Marketing
         </a>
 
         <nav
