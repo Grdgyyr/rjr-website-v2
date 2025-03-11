@@ -20,7 +20,6 @@ import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
-import background from "./background.jpg";
 
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -84,7 +83,6 @@ export {
   chromecast,
   sliders04,
   loading,
-  background,
   curve1,
   curve2,
   framer,
