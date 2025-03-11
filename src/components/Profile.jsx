@@ -1,9 +1,9 @@
 import { rjrlogo, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "./design/Profile";
 
-const Collaboration = () => {
+const Profile = () => {
   return (
     <Section crosses id="profile">
       <div className="container lg:flex items-center justify-center">
@@ -71,4 +71,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Profile;

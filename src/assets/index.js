@@ -7,43 +7,43 @@ import loading1 from "./loading-01.svg";
 import loading from "./loading.png";
 
 
-import curve1 from "./collaboration/curve-1.svg";
-import curve2 from "./collaboration/curve-2.svg";
-import framer from "./collaboration/framer.png";
-import raindrop from "./collaboration/raindrop.png";
-import medical from "./collaboration/medical.png";
-import hardware from "./collaboration/hardware.png";
-import electrical from "./collaboration/electrical.png";
-import computer from "./collaboration/computer.png";
-import linen from "./collaboration/linen.png";
-import office from "./collaboration/office.png";
+import curve1 from "./profile/curve-1.svg";
+import curve2 from "./profile/curve-2.svg";
+import framer from "./profile/framer.png";
+import raindrop from "./profile/raindrop.png";
+import medical from "./profile/medical.png";
+import hardware from "./profile/hardware.png";
+import electrical from "./profile/electrical.png";
+import computer from "./profile/computer.png";
+import linen from "./profile/linen.png";
+import office from "./profile/office.png";
 
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.png";
+import lines from "./landing/lines.svg";
+import stars from "./landing/stars.png";
 
 
-import roadmap5 from "./roadmap/electronics.png";
-import roadmap6 from "./roadmap/accessories.png";
-import roadmap7 from "./roadmap/parts.png";
-import roadmap8 from "./roadmap/officesupplies.png";
-import roadmap9 from "./roadmap/medicalsupplies.png";
-import roadmap10 from "./roadmap/equipments.png";
+import catalog5 from "./catalog/electronics.png";
+import catalog6 from "./catalog/accessories.png";
+import catalog7 from "./catalog/parts.png";
+import catalog8 from "./catalog/officesupplies.png";
+import catalog9 from "./catalog/medicalsupplies.png";
+import catalog10 from "./catalog/equipments.png";
 
 
-import benefitCard1 from "./benefits/card-1.png";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage1 from "./benefits/image-1.svg";
-import benefitImage2 from "./benefits/image-2.svg";
-import benefitImage3 from "./benefits/image-3.svg";
-import benefitImage4 from "./benefits/image-4.svg";
-import benefitImage5 from "./benefits/image-5.svg";
-import benefitImage6 from "./benefits/image-6.svg";
+import benefitCard1 from "./products/card-1.png";
+import benefitCard2 from "./products/card-2.svg";
+import benefitCard3 from "./products/card-3.svg";
+import benefitIcon1 from "./products/icon-1.svg";
+import benefitIcon2 from "./products/icon-2.svg";
+import benefitIcon3 from "./products/icon-3.svg";
+import benefitIcon4 from "./products/icon-4.svg";
+import benefitImage1 from "./products/image-1.svg";
+import benefitImage2 from "./products/image-2.svg";
+import benefitImage3 from "./products/image-3.svg";
+import benefitImage4 from "./products/image-4.svg";
+import benefitImage5 from "./products/image-5.svg";
+import benefitImage6 from "./products/image-6.svg";
 
 export {
   rjrlogo,
@@ -65,12 +65,12 @@ export {
   office,
   lines,
   stars,
-  roadmap5,
-  roadmap6,
-  roadmap7,
-  roadmap8,
-  roadmap9,
-  roadmap10,
+  catalog5,
+  catalog6,
+  catalog7,
+  catalog8,
+  catalog9,
+  catalog10,
   benefitCard1,
   benefitCard2,
   benefitCard3,

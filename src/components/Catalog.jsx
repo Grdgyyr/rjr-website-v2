@@ -1,17 +1,17 @@
 
 import Heading from "./Heading";
 import Section from "./Section";
-import { roadmap } from "../constants";
+import { catalog } from "../constants";
 import { check2, grid, loading1 } from "../assets";
-import { Gradient } from "./design/Roadmap";
+import { Gradient } from "./design/Catalog";
 
-const Roadmap = () => (
+const Catalog = () => (
   <Section className="overflow-hidden" id="catalog">
     <div className="container md:pb-10">
       <Heading  title="Product Catalog" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
+        {catalog.map((item) => {
           
           return (
             <div
@@ -60,4 +60,4 @@ const Roadmap = () => (
   </Section>
 );
 
-export default Roadmap;
+export default Catalog;

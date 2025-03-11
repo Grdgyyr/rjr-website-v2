@@ -2,9 +2,9 @@ import Section from "./Section";
 import { rjrlogo, stars } from "../assets";
 import Heading from "./Heading";
 
-const Pricing = () => {
+const Landing = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
+    <Section className="overflow-hidden" id="landing">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -44,4 +44,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Landing;
