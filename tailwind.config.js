@@ -9,7 +9,8 @@ export default {
       colors: {
         color: {
           1: "#B20202",
-          2: "#FFC876",
+          2: "#890405",
+          
           3: "#FF776F",
           4: "#7ADB78",
           5: "#858DFF",
