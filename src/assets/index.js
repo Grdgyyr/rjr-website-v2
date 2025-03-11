@@ -1,3 +1,4 @@
+import rjrlogo from "./rjrlogo.png";
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -61,6 +62,7 @@ import benefitImage5 from "./benefits/image-5.svg";
 import benefitImage6 from "./benefits/image-6.svg";
 
 export {
+  rjrlogo,
   brainwave,
   check,
   check2,

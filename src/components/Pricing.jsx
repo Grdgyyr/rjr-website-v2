@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { stars } from "../assets";
+import { rjrlogo, stars } from "../assets";
 import Heading from "./Heading";
 
 const Pricing = () => {
@@ -8,7 +8,7 @@ const Pricing = () => {
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
-            src="/assets/rjrlogo.png"
+            src={rjrlogo}
             className="relative z-1"
             width={400}
             height={400}

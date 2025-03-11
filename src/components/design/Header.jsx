@@ -1,5 +1,4 @@
-import { background } from "../../assets";
-
+import { rjrlogo } from "../../assets";
 export const Rings = () => {
   return (
     <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2">
@@ -21,9 +20,9 @@ export const SideLines = () => {
 export const BackgroundCircles = () => {
   return (
     <>
-      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#890405] to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B20202] to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#890405] to-[#B20202] rounded-full"></div>
     </>
   );
 };
@@ -34,10 +33,9 @@ export const HamburgerMenu = () => {
       <div className="absolute inset-0 opacity-[.03]">
         <img
           className="w-full h-full object-cover"
-          src={background}
-          width={688}
-          height={953}
-          alt="Background"
+          src={rjrlogo}
+          width={100}
+          height={100}
         />
       </div>
 

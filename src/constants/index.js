@@ -4,6 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
 import {
+  rjrlogo,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
