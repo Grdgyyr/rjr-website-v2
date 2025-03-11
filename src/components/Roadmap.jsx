@@ -67,10 +67,6 @@ const Roadmap = () => (
 
         <Gradient />
       </div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="https://maps.app.goo.gl/BzfEjcC45DtA3oVv6">Our Location</Button>
-      </div>
     </div>
   </Section>
 );
