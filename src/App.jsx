@@ -1,5 +1,5 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Products from "./components/Products";
+import Services from "./components/Services";
 import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -13,7 +13,7 @@ const App = () => {
         <Header />
         <Landing />
         <Profile />
-        <Products />
+        <Services />
         <Catalog />
         
         <Footer />

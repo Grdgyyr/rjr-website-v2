@@ -5,10 +5,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 
 import {
   rjrlogo,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
   benefitImage1,
   benefitImage2,
   benefitImage3,
@@ -39,8 +35,8 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Products",
-    url: "#products",
+    title: "services",
+    url: "#services",
   },
   {
     id: "2",
@@ -62,7 +58,7 @@ export const catalog = [
   {
     id: "0",
     title: "Electronics",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog5,
     colorful: false,
 
@@ -70,31 +66,31 @@ export const catalog = [
   {
     id: "1",
     title: "Computer Accessories",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog6,
   },
   {
     id: "2",
     title: "Computer Parts",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog7,
   },
   {
     id: "3",
     title: "Office Supplies",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog8,
   },
   {
     id: "4",
     title: "Medical Supplies",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog9,
   },
   {
     id: "5",
     title: "Network Equipments",
-    text: "We also cater specific order basis products and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
+    text: "We also cater specific order basis services and goods locally or internationally sourced. We will handle all the hassles of shipping and handling. Feel free to visit our office or contact us for further details.",
     imageUrl: catalog10,
   },
 ];
@@ -216,19 +212,19 @@ export const landing = [
   },
 ];
 
-export const products = [
+export const services = [
   {
     id: "0",
     title: "LINEN SUPPLIES",
     text: "Customized Household and Office Curtains Fabric printing Services Hospital Gowns and Cadaver Bags",
-    backgroundUrl: "./src/assets/products/card-1.png",
+    backgroundUrl: "./src/assets/services/card-1.png",
     imageUrl: benefitImage1,
   },
   {
     id: "1",
     title: "ELECTRONICS",
     text: "Heating Elements PA Speakers and Microphones",
-    backgroundUrl: "./src/assets/products/card-2.svg",
+    backgroundUrl: "./src/assets/services/card-2.svg",
     imageUrl: benefitImage2,
     light: true,
   },
@@ -236,14 +232,14 @@ export const products = [
     id: "2",
     title: "OFFICE SUPPLIES AND FURNITURE",
     text: "Papers, Folders, Pens Etc. Computer Chairs and Tables Office Filing Cabinets",
-    backgroundUrl: "./src/assets/products/card-3.svg",
+    backgroundUrl: "./src/assets/services/card-3.svg",
     imageUrl: benefitImage3,
   },
   {
     id: "3",
     title: "IT EQUIPMENTS",
     text: "CCTV Computer Accessories and Peripherals Networking Accessories Laptops and Pre-Build Desktops Printers, Toners and Inks",
-    backgroundUrl: "./src/assets/products/card-1.png",
+    backgroundUrl: "./src/assets/services/card-1.png",
     imageUrl: benefitImage4,
     light: true,
   },
@@ -251,14 +247,14 @@ export const products = [
     id: "4",
     title: "MEDICAL SUPPLIES",
     text: "Facemasks, Thermometers, Gloves Laboratory Apparatus and Appliances",
-    backgroundUrl: "./src/assets/products/card-2.svg",
+    backgroundUrl: "./src/assets/services/card-2.svg",
     imageUrl: benefitImage5,
   },
   {
     id: "5",
     title: "SOLAR PANELS AND INVERTERS",
     text: "Low and High Capacity UPS and Solar Inverters Grid Tie, Hybrid Setup Deep Cycle Solar Batteries",
-    backgroundUrl: "./src/assets/products/card-3.svg",
+    backgroundUrl: "./src/assets/services/card-3.svg",
     imageUrl: benefitImage6,
   },
 ];

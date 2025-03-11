@@ -1,10 +1,10 @@
-import { products } from "../constants";
+import { services } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import { GradientLight } from "./design/Products";
+import { GradientLight } from "./design/Services";
 import ClipPath from "../assets/svg/ClipPath";
 
-const Products = () => {
+const Services = () => {
   return (
     <Section id="products">
       <div className="container relative z-2">
@@ -14,7 +14,7 @@ const Products = () => {
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {products.map((item) => (
+          {services.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
@@ -32,7 +32,7 @@ const Products = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#products)" }}
+                style={{ clipPath: "url(#services)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-25">
                   {item.imageUrl && (
@@ -56,4 +56,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Services;

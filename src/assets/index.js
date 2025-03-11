@@ -31,19 +31,15 @@ import catalog9 from "./catalog/medicalsupplies.png";
 import catalog10 from "./catalog/equipments.png";
 
 
-import benefitCard1 from "./products/card-1.png";
-import benefitCard2 from "./products/card-2.svg";
-import benefitCard3 from "./products/card-3.svg";
-import benefitIcon1 from "./products/icon-1.svg";
-import benefitIcon2 from "./products/icon-2.svg";
-import benefitIcon3 from "./products/icon-3.svg";
-import benefitIcon4 from "./products/icon-4.svg";
-import benefitImage1 from "./products/image-1.svg";
-import benefitImage2 from "./products/image-2.svg";
-import benefitImage3 from "./products/image-3.svg";
-import benefitImage4 from "./products/image-4.svg";
-import benefitImage5 from "./products/image-5.svg";
-import benefitImage6 from "./products/image-6.svg";
+import benefitCard1 from "./services/card-1.png";
+import benefitCard2 from "./services/card-2.svg";
+import benefitCard3 from "./services/card-3.svg";
+import benefitImage1 from "./services/image-1.svg";
+import benefitImage2 from "./services/image-2.svg";
+import benefitImage3 from "./services/image-3.svg";
+import benefitImage4 from "./services/image-4.svg";
+import benefitImage5 from "./services/image-5.svg";
+import benefitImage6 from "./services/image-6.svg";
 
 export {
   rjrlogo,
@@ -74,10 +70,6 @@ export {
   benefitCard1,
   benefitCard2,
   benefitCard3,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
   benefitImage1,
   benefitImage2,
   benefitImage3,
